@@ -1,2 +1,2 @@
 # CursoSpringBoot1
-Just study!
+Just for study!
