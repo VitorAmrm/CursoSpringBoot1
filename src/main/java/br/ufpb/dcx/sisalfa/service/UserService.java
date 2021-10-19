@@ -17,4 +17,12 @@ public class UserService {
 	public List<User> findAll() {
 		return buscador.findAll();		 	
 	}
+
+	public void cadastrar(){
+		this.buscador.save(new User("luis.vitor","luis.vitor@dcx.ufpb.br"));
+		this.buscador.save(new User("raimundo.ludgerio","raimundo.ludgerio@dcx.ufpb.br"));
+		this.buscador.save(new User("camila.tereza","camila.tereza@dcx.ufpb.br"));
+		this.buscador.save(new User("ingrid.martins","ingrid.martins@dcx.ufpb.br"));
+		this.buscador.save(new User("jeferson.alves","jeferson.alves@dcx.ufpb.br"));
+	}
 }

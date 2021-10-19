@@ -19,5 +19,10 @@ public class UserController {
 		model.addAttribute("usersList", this.serviceUse.findAll());  			
 		return "user";
 	}
+	@RequestMapping("/cadastrar")
+	public String cadastro(Model model){
+		serviceUse.cadastrar();
+		return "user";
+	}
 
 }

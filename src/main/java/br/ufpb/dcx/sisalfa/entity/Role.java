@@ -1,14 +1,12 @@
 package br.ufpb.dcx.sisalfa.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
+@Table(name = "dmn_role")
 public class Role {
 	
 	@Id

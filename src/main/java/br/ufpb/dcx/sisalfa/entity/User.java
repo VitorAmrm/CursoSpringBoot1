@@ -2,13 +2,10 @@ package br.ufpb.dcx.sisalfa.entity;
 
 import java.util.Set;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "dmn_user")
 public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
