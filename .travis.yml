@@ -10,5 +10,5 @@ deploy:
   strategy: api
   provider: heroku
   api_key: 
-    secure: $HEROKU_KEY
+    secure: "3a761741-7735-4a86-ab54-647bc72de6f4"
   app: CursoSpring
