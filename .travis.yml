@@ -1,10 +1,13 @@
 language: java
 jdk: openjdk8
+dist: xenial
+os: linux
 
 script:
   - ./mvnw clean install -B
  
 deploy:
+  strategy: api
   provider: heroku
   api_key: 
     secure: "574eaa67-7784-4a47-88bc-59a1e9270cbc"
