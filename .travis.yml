@@ -3,7 +3,7 @@ os: linux
 language: java
 jdk: oraclejdk8
 
-script:
+before_install:
  - chmod a+x ./mvnw
  
 deploy:
