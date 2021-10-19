@@ -6,5 +6,6 @@ script:
  
 deploy:
   provider: heroku
-  api_key: $HEROKU_KEY
+  api_key: 
+    secure: "574eaa67-7784-4a47-88bc-59a1e9270cbc"
   app: CursoSpring
