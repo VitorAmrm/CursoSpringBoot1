@@ -2,9 +2,6 @@ language: java
 jdk: openjdk8
 dist: xenial
 os: linux
-
-script:
-  - ./mvnw clean install
  
 deploy:
   strategy: api
