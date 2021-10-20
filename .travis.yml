@@ -9,5 +9,5 @@ before_install:
 deploy:
   strategy: api
   provider: heroku
-  api_key: "3a761741-7735-4a86-ab54-647bc72de6f4"
+  api_key: $HEROKU_API_KEY
   app: spring-curso-boot
