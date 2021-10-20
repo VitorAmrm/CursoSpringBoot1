@@ -5,7 +5,11 @@ jdk: oraclejdk8
 
 before_install:
  - chmod a+x ./mvnw
- 
+
+branches:
+  only:
+    - master
+
 deploy:
   strategy: api
   provider: heroku
